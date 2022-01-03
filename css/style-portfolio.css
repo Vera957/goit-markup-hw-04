@@ -1,0 +1,68 @@
+/*portfolio style*/
+.portfolio-work-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: -15px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.btns .item:not(:last-child){
+    margin-right: 8px;
+}
+.portfolio-btn{
+    font-family: inherit;
+    display: inline;
+    background-color: var(--second-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 3%;
+    text-align: center;
+    color: var(--second-text-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 22px;
+}
+.portfolio-btn:hover, 
+.portfolio-btn:focus{
+    background-color: var(--optional-color); color: var(--main-bg-color);
+}
+.portfolio-work-examples img{
+    display: block;
+}
+.portfolio-work-examples{
+    text-align: left;
+    width: 370px;
+    margin: 15px;
+}
+.portfolio-card-discription{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px #EEEEEE solid;
+    border-top: none;
+}
+
+.portfolio-work-examples-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+    margin-bottom: 0;
+    color: var(--second-text-color);
+    margin: 0;
+    margin-bottom: 4px;
+}
+.portfolio-work-examples-discrition{
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-text-color);
+    margin: 0;
+}
