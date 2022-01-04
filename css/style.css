@@ -375,12 +375,7 @@ footer .container{
 
 /*icons*/
 
-[class^="icon-"]{
-  fill: var(--main-text-color)
-}
-[class^="icon-"]:hover{
-  fill: var(--optional-color)
-}
+
 
 .icon-phone{
   width: 10px;
@@ -454,21 +449,12 @@ footer .container{
   justify-content: center;
   fill: var(--optional-color);
   color: var(--optional-color);
-  /*outline: violet 1px solid;*/
 }
 
 .client-item{
   fill: #AFB1B8;
 }
 
-.client-item:hover{
-  fill:var(--optional-color);
-}
-
-.client-interactive:hover, .client-interactive:focus{
-  border: var(--optional-color) 1px solid;
-  fill: inherit;
-}
 .footer-rounded-list .rounded-icon{
   background-color: rgba(255, 255, 255, 0.1);
   fill: white;
@@ -477,3 +463,12 @@ footer .container{
 .footer-rounded-list .rounded-icon:focus{
   background-color: var(--optional-color);
 }
+
+
+.test:hover svg{
+  fill:var(--optional-color);
+}
+.test:hover{
+  border: var(--optional-color) 1px solid;
+}
+
