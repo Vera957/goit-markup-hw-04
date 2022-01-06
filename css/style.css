@@ -84,20 +84,19 @@ body {
 }
 
 .border-botom{
-   border-bottom: 1px solid #ECECEC;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 
 .positions{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-.start{
-  display: flex;
-  align-items: center;
+
+.just-nav{
+  margin-right: auto;
 }
 
 .just-nav>ul{
@@ -205,7 +204,9 @@ body {
   padding: 0;
 }
 
-
+.logo-link{
+  margin-right: 93px;
+}
 
 .link-and-icon:hover, .link-and-icon:focus{
    color: var(--optional-color);
