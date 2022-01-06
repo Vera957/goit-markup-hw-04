@@ -107,6 +107,7 @@ body {
 }
 
 .nav {
+  padding: 0;
   font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
@@ -233,7 +234,7 @@ body {
   display: flex;
 }
 .advantages .item{
-  width: calc((100% - 30px - 90px)/4);
+  width: calc((100% - 90px)/4);
   margin-left: 30px;
 }
 
@@ -242,6 +243,7 @@ body {
 }
 .advantages-container{
   padding-bottom: 0;
+  width: 1170;
 }
 
 .examples{
@@ -258,9 +260,6 @@ body {
   display: block;
 }
 
-
-  
-
 .team-list{
   padding-top: 94px;
   padding-bottom: 50px;
@@ -272,19 +271,21 @@ body {
 }
 
 .foo-links{
- padding-left: 0;
+  margin-top: 9px;
+  padding-left: 0;
 }
 
-.foo-links li{
+.foo-links li:not(:first-child){
   margin-top: 9px;
 }
-
 
 .inverse-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.inverse-link:focus, .inverse-link:hover{color: var(--optional-color);}
+.inverse-link:focus, .inverse-link:hover{
+  color: var(--optional-color);
+}
 
 .footer-container{
   padding-top: 60px;
