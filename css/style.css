@@ -169,7 +169,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 10px;
-
 }
 
 .nav-link,
@@ -410,10 +409,6 @@ footer .container{
   fill: white;
 }
 
-.rounded-icon-svg{
-  width: 20px;
-  height: 20px;
-}
 .social-links{
   display: flex;
   justify-content: center;
