@@ -21,7 +21,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-align: center;
     color: var(--second-text-color);
     border-radius: 4px;
@@ -32,12 +32,12 @@
 .portfolio-btn:hover, 
 .portfolio-btn:focus{
     background-color: var(--optional-color); color: var(--main-bg-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-work-examples img{
     display: block;
 }
 .portfolio-work-examples{
-    border: 1px #EEEEEE solid;
     text-align: left;
     width: 370px;
     margin: 15px;
@@ -48,6 +48,9 @@
 }
 
 .portfolio-card-discription{
+    border-right: 1px #EEEEEE solid;
+    border-bottom: 1px #EEEEEE solid;
+    border-left: 1px #EEEEEE solid;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 24px;
@@ -59,7 +62,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     margin-bottom: 0;
     color: var(--second-text-color);
     margin: 0;
